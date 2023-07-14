@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.js"></script>
+</head>
+<body>
+    <nav>
+        <p>
+            Online Code-Editor
+        </p>
+        <ul class="tabs">
+            <li class="tab" id="html-tab">HTML</li>
+            <li class="tab" id="css-tab">CSS</li>
+            <li class="tab" id="js-tab">JS</li>
+            <li class="tab" id="result-tab">Result</li>
+        </ul>
+        <button id="run-btn">
+            Run
+        </button>
+    </nav>
+    <main>
+        <div class="editor">
+                <textarea class="code-editor" id="html-editor" placeholder="Enter HTML code here"></textarea>
+                <textarea class="code-editor" id="css-editor" placeholder="Enter CSS code here"></textarea>
+                <textarea class="code-editor" id="js-editor" placeholder="Enter JavaScript code here"></textarea>
+                <div id="result-container"> 
+                    <p>Results</p>
+                    <iframe id="result-frame"></iframe>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Online Code-Editor by UzeziSama &copy;2023
+        </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
