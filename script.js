@@ -7,28 +7,6 @@ $(document).ready(function(){
     $("#js-editor").hide();
 
 
-    // //to switch tabs
-    // $("#html-tab").click(function(){
-    //     $("#result-tab").show();
-    //     $("#html-editor").show();
-    //     $("#css-editor").hide();
-    //     $("#js-editor").hide();
-    // });
-
-    // $("#css-tab").click(function(){
-    //     $("#result-tab").show();
-    //     $("#html-editor").hide();
-    //     $("#css-editor").show();
-    //     $("#js-editor").hide();
-    // });
-
-    // $("#js-tab").click(function(){
-    //     $("#result-tab").show();
-    //     $("#html-editor").hide();
-    //     $("#css-editor").hide();
-    //     $("#js-editor").show();
-    // });
-
     // Toggle code containers
     $(".tab").click(function() {
         var activeTab = $(this).attr('id');
